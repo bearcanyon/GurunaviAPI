@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5F3357351C5364FF00106DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357341C5364FF00106DA3 /* AppDelegate.swift */; };
-		5F3357371C5364FF00106DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357361C5364FF00106DA3 /* ViewController.swift */; };
 		5F33573A1C5364FF00106DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3357381C5364FF00106DA3 /* Main.storyboard */; };
 		5F33573C1C5364FF00106DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F33573B1C5364FF00106DA3 /* Assets.xcassets */; };
 		5F33573F1C5364FF00106DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33573D1C5364FF00106DA3 /* LaunchScreen.storyboard */; };
 		5F33574A1C5364FF00106DA3 /* GurunaviAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357491C5364FF00106DA3 /* GurunaviAPITests.swift */; };
 		5F3357551C5364FF00106DA3 /* GurunaviAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357541C5364FF00106DA3 /* GurunaviAPIUITests.swift */; };
+		5F3357631C53700700106DA3 /* ShopListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357621C53700700106DA3 /* ShopListTableViewController.swift */; };
+		5F3357651C53701700106DA3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357641C53701700106DA3 /* WebViewController.swift */; };
+		DC1B760D7C46D911C970A235 /* Pods_GurunaviAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37912CEDF5347D3EC7A571C /* Pods_GurunaviAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1133B8BDCC9252D8D25A2AFA /* Pods-GurunaviAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GurunaviAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GurunaviAPI/Pods-GurunaviAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		27E31CC2B05C607D93ADB17B /* Pods-GurunaviAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GurunaviAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-GurunaviAPI/Pods-GurunaviAPI.release.xcconfig"; sourceTree = "<group>"; };
 		5F3357311C5364FF00106DA3 /* GurunaviAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GurunaviAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3357341C5364FF00106DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F3357361C5364FF00106DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F3357391C5364FF00106DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F33573B1C5364FF00106DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F33573E1C5364FF00106DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		5F3357501C5364FF00106DA3 /* GurunaviAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GurunaviAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3357541C5364FF00106DA3 /* GurunaviAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIUITests.swift; sourceTree = "<group>"; };
 		5F3357561C5364FF00106DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3357621C53700700106DA3 /* ShopListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopListTableViewController.swift; sourceTree = "<group>"; };
+		5F3357641C53701700106DA3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C37912CEDF5347D3EC7A571C /* Pods_GurunaviAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GurunaviAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1B760D7C46D911C970A235 /* Pods_GurunaviAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169E8332BEE6862897170E5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1133B8BDCC9252D8D25A2AFA /* Pods-GurunaviAPI.debug.xcconfig */,
+				27E31CC2B05C607D93ADB17B /* Pods-GurunaviAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		451E8984FCD978FD2129982D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37912CEDF5347D3EC7A571C /* Pods_GurunaviAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5F3357281C5364FF00106DA3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				5F3357481C5364FF00106DA3 /* GurunaviAPITests */,
 				5F3357531C5364FF00106DA3 /* GurunaviAPIUITests */,
 				5F3357321C5364FF00106DA3 /* Products */,
+				169E8332BEE6862897170E5B /* Pods */,
+				451E8984FCD978FD2129982D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				5F3357341C5364FF00106DA3 /* AppDelegate.swift */,
-				5F3357361C5364FF00106DA3 /* ViewController.swift */,
 				5F3357381C5364FF00106DA3 /* Main.storyboard */,
+				5F3357621C53700700106DA3 /* ShopListTableViewController.swift */,
+				5F3357641C53701700106DA3 /* WebViewController.swift */,
 				5F33573B1C5364FF00106DA3 /* Assets.xcassets */,
 				5F33573D1C5364FF00106DA3 /* LaunchScreen.storyboard */,
 				5F3357401C5364FF00106DA3 /* Info.plist */,
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F3357591C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPI" */;
 			buildPhases = (
+				F77BFE5C94390F07CA8D49F6 /* Check Pods Manifest.lock */,
 				5F33572D1C5364FF00106DA3 /* Sources */,
 				5F33572E1C5364FF00106DA3 /* Frameworks */,
 				5F33572F1C5364FF00106DA3 /* Resources */,
+				FDA580C4BB89B49A3F10ED8E /* Embed Pods Frameworks */,
+				45BF3B9F7FD1D0E54C7E678A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +281,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45BF3B9F7FD1D0E54C7E678A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GurunaviAPI/Pods-GurunaviAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77BFE5C94390F07CA8D49F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA580C4BB89B49A3F10ED8E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GurunaviAPI/Pods-GurunaviAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F33572D1C5364FF00106DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3357371C5364FF00106DA3 /* ViewController.swift in Sources */,
 				5F3357351C5364FF00106DA3 /* AppDelegate.swift in Sources */,
+				5F3357651C53701700106DA3 /* WebViewController.swift in Sources */,
+				5F3357631C53700700106DA3 /* ShopListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +476,7 @@
 		};
 		5F33575A1C5364FF00106DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1133B8BDCC9252D8D25A2AFA /* Pods-GurunaviAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GurunaviAPI/Info.plist;
@@ -408,6 +488,7 @@
 		};
 		5F33575B1C5364FF00106DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E31CC2B05C607D93ADB17B /* Pods-GurunaviAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GurunaviAPI/Info.plist;
@@ -484,6 +565,7 @@
 				5F33575B1C5364FF00106DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F33575C1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPITests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				5F33575E1C5364FF00106DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F33575F1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				5F3357611C5364FF00106DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
