@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F3357351C5364FF00106DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357341C5364FF00106DA3 /* AppDelegate.swift */; };
+		5F3357371C5364FF00106DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357361C5364FF00106DA3 /* ViewController.swift */; };
+		5F33573A1C5364FF00106DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3357381C5364FF00106DA3 /* Main.storyboard */; };
+		5F33573C1C5364FF00106DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F33573B1C5364FF00106DA3 /* Assets.xcassets */; };
+		5F33573F1C5364FF00106DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33573D1C5364FF00106DA3 /* LaunchScreen.storyboard */; };
+		5F33574A1C5364FF00106DA3 /* GurunaviAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357491C5364FF00106DA3 /* GurunaviAPITests.swift */; };
+		5F3357551C5364FF00106DA3 /* GurunaviAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3357541C5364FF00106DA3 /* GurunaviAPIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3357461C5364FF00106DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3357291C5364FF00106DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3357301C5364FF00106DA3;
+			remoteInfo = GurunaviAPI;
+		};
+		5F3357511C5364FF00106DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3357291C5364FF00106DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3357301C5364FF00106DA3;
+			remoteInfo = GurunaviAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F3357311C5364FF00106DA3 /* GurunaviAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GurunaviAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3357341C5364FF00106DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F3357361C5364FF00106DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F3357391C5364FF00106DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F33573B1C5364FF00106DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F33573E1C5364FF00106DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F3357401C5364FF00106DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3357451C5364FF00106DA3 /* GurunaviAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GurunaviAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3357491C5364FF00106DA3 /* GurunaviAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPITests.swift; sourceTree = "<group>"; };
+		5F33574B1C5364FF00106DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3357501C5364FF00106DA3 /* GurunaviAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GurunaviAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3357541C5364FF00106DA3 /* GurunaviAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIUITests.swift; sourceTree = "<group>"; };
+		5F3357561C5364FF00106DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F33572E1C5364FF00106DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3357421C5364FF00106DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33574D1C5364FF00106DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3357281C5364FF00106DA3 = {
+			isa = PBXGroup;
+			children = (
+				5F3357331C5364FF00106DA3 /* GurunaviAPI */,
+				5F3357481C5364FF00106DA3 /* GurunaviAPITests */,
+				5F3357531C5364FF00106DA3 /* GurunaviAPIUITests */,
+				5F3357321C5364FF00106DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3357321C5364FF00106DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3357311C5364FF00106DA3 /* GurunaviAPI.app */,
+				5F3357451C5364FF00106DA3 /* GurunaviAPITests.xctest */,
+				5F3357501C5364FF00106DA3 /* GurunaviAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3357331C5364FF00106DA3 /* GurunaviAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5F3357341C5364FF00106DA3 /* AppDelegate.swift */,
+				5F3357361C5364FF00106DA3 /* ViewController.swift */,
+				5F3357381C5364FF00106DA3 /* Main.storyboard */,
+				5F33573B1C5364FF00106DA3 /* Assets.xcassets */,
+				5F33573D1C5364FF00106DA3 /* LaunchScreen.storyboard */,
+				5F3357401C5364FF00106DA3 /* Info.plist */,
+			);
+			path = GurunaviAPI;
+			sourceTree = "<group>";
+		};
+		5F3357481C5364FF00106DA3 /* GurunaviAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3357491C5364FF00106DA3 /* GurunaviAPITests.swift */,
+				5F33574B1C5364FF00106DA3 /* Info.plist */,
+			);
+			path = GurunaviAPITests;
+			sourceTree = "<group>";
+		};
+		5F3357531C5364FF00106DA3 /* GurunaviAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3357541C5364FF00106DA3 /* GurunaviAPIUITests.swift */,
+				5F3357561C5364FF00106DA3 /* Info.plist */,
+			);
+			path = GurunaviAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3357301C5364FF00106DA3 /* GurunaviAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3357591C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPI" */;
+			buildPhases = (
+				5F33572D1C5364FF00106DA3 /* Sources */,
+				5F33572E1C5364FF00106DA3 /* Frameworks */,
+				5F33572F1C5364FF00106DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GurunaviAPI;
+			productName = GurunaviAPI;
+			productReference = 5F3357311C5364FF00106DA3 /* GurunaviAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3357441C5364FF00106DA3 /* GurunaviAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F33575C1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPITests" */;
+			buildPhases = (
+				5F3357411C5364FF00106DA3 /* Sources */,
+				5F3357421C5364FF00106DA3 /* Frameworks */,
+				5F3357431C5364FF00106DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3357471C5364FF00106DA3 /* PBXTargetDependency */,
+			);
+			name = GurunaviAPITests;
+			productName = GurunaviAPITests;
+			productReference = 5F3357451C5364FF00106DA3 /* GurunaviAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F33574F1C5364FF00106DA3 /* GurunaviAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F33575F1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPIUITests" */;
+			buildPhases = (
+				5F33574C1C5364FF00106DA3 /* Sources */,
+				5F33574D1C5364FF00106DA3 /* Frameworks */,
+				5F33574E1C5364FF00106DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3357521C5364FF00106DA3 /* PBXTargetDependency */,
+			);
+			name = GurunaviAPIUITests;
+			productName = GurunaviAPIUITests;
+			productReference = 5F3357501C5364FF00106DA3 /* GurunaviAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3357291C5364FF00106DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KumagaiNaoki;
+				TargetAttributes = {
+					5F3357301C5364FF00106DA3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5F3357441C5364FF00106DA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5F3357301C5364FF00106DA3;
+					};
+					5F33574F1C5364FF00106DA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5F3357301C5364FF00106DA3;
+					};
+				};
+			};
+			buildConfigurationList = 5F33572C1C5364FF00106DA3 /* Build configuration list for PBXProject "GurunaviAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3357281C5364FF00106DA3;
+			productRefGroup = 5F3357321C5364FF00106DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3357301C5364FF00106DA3 /* GurunaviAPI */,
+				5F3357441C5364FF00106DA3 /* GurunaviAPITests */,
+				5F33574F1C5364FF00106DA3 /* GurunaviAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F33572F1C5364FF00106DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33573F1C5364FF00106DA3 /* LaunchScreen.storyboard in Resources */,
+				5F33573C1C5364FF00106DA3 /* Assets.xcassets in Resources */,
+				5F33573A1C5364FF00106DA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3357431C5364FF00106DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33574E1C5364FF00106DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F33572D1C5364FF00106DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3357371C5364FF00106DA3 /* ViewController.swift in Sources */,
+				5F3357351C5364FF00106DA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3357411C5364FF00106DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33574A1C5364FF00106DA3 /* GurunaviAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33574C1C5364FF00106DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3357551C5364FF00106DA3 /* GurunaviAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3357471C5364FF00106DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3357301C5364FF00106DA3 /* GurunaviAPI */;
+			targetProxy = 5F3357461C5364FF00106DA3 /* PBXContainerItemProxy */;
+		};
+		5F3357521C5364FF00106DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3357301C5364FF00106DA3 /* GurunaviAPI */;
+			targetProxy = 5F3357511C5364FF00106DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F3357381C5364FF00106DA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3357391C5364FF00106DA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F33573D1C5364FF00106DA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F33573E1C5364FF00106DA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F3357571C5364FF00106DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F3357581C5364FF00106DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F33575A1C5364FF00106DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GurunaviAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F33575B1C5364FF00106DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GurunaviAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F33575D1C5364FF00106DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GurunaviAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GurunaviAPI.app/GurunaviAPI";
+			};
+			name = Debug;
+		};
+		5F33575E1C5364FF00106DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GurunaviAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GurunaviAPI.app/GurunaviAPI";
+			};
+			name = Release;
+		};
+		5F3357601C5364FF00106DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GurunaviAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GurunaviAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F3357611C5364FF00106DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GurunaviAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.GurunaviAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GurunaviAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F33572C1C5364FF00106DA3 /* Build configuration list for PBXProject "GurunaviAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3357571C5364FF00106DA3 /* Debug */,
+				5F3357581C5364FF00106DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3357591C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33575A1C5364FF00106DA3 /* Debug */,
+				5F33575B1C5364FF00106DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F33575C1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33575D1C5364FF00106DA3 /* Debug */,
+				5F33575E1C5364FF00106DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F33575F1C5364FF00106DA3 /* Build configuration list for PBXNativeTarget "GurunaviAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3357601C5364FF00106DA3 /* Debug */,
+				5F3357611C5364FF00106DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3357291C5364FF00106DA3 /* Project object */;
+}
